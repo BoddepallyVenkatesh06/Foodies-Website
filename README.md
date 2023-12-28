@@ -46,7 +46,7 @@ We welcome contributions from the food-loving community! If you'd like to contri
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md) file for details.
 
 Happy cooking and exploring the world of flavors with Foodies!
 ```
