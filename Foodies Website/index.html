@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles/index.css" />
+    <link rel="stylesheet" href="./css/responsive/responsive.css" />
+    <title>Foodie</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrapper">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#explore-foods"
+                  >Explore Foods</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#review"
+                  >Reviews</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <button class="main-btn">1200 345 123</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- section-1 top banner -->
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <h1>good food choices are good invetsment</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                maxime quisquam alias soluta officia quis amet exercitationem
+                accusantium fugiat corporis iure asperiores cupiditate magnam
+                facilis sint voluptas est, aspernatur totam?
+              </p>
+              <div class="mt-4">
+                <button class="main-btn">
+                  order now <i class="fas fa-shopping-basket ps-3"></i>
+                </button>
+                <button class="white-btn ms-lg-4 mt-lg-0 mt-4">
+                  order now <i class="fas fa-angle-right ps-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-2 counter -->
+    <section id="counter">
+      <section class="counter-section">
+        <dic class="container">
+          <div class="row text-center">
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count1"></span>+</h2>
+
+              <p>SAVINGS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count2"></span> +</h2>
+
+              <p>PHOTOS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count3"></span>+</h2>
+
+              <p>ROCKETS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count4"></span>+</h2>
+
+              <p>GLOBES</p>
+            </div>
+          </div>
+        </dic>
+      </section>
+    </section>
+
+    <section id="about">
+      <section class="about-section wrapper">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+              <div class="card border-0">
+                <img src="./images/img/img-1.png" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 text-sec">
+              <h2>
+                We pride ourselves on making real food from the best ingredients
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                explicabo nostrum dolores amet cumque consectetur nulla,
+                accusamus cupiditate dolore. Corporis vitae perferendis culpa
+                autem magnam repellat est dicta dolorum porro.
+              </p>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="container food-type">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+              <h2>
+                We make everything by our hand with the best possible
+                ingredients
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                temporibus fuga! Quasi ut esse enim repellendus eius reiciendis
+                corrupti harum fugit corporis quas quos, quia, consequatur
+                dolore dolorum labore voluptatum.
+              </p>
+              <ul class="list-unstyled py-3">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Harum atque a debitis doloremque</li>
+                <li>facere voluptatem magnam obcaecati</li>
+              </ul>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="card border-0">
+                <img src="./images/img/img-2.png " class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="about">
+      <div class="story-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content">
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h2>
+                <p>
+                  Repellendus voluptatem, omnis accusantium sequi, mollitia
+                  laborum eius facere quam impedit facilis sunt? Rem qui quae
+                  numquam eveniet. Nemo reiciendis nesciunt provident.
+                </p>
+                <button class="main-btn mt-3">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explore-foods">
+      <div class="explore-food">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center">
+                <h2>Explore our foods</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                  perspiciatis. Est accusantium molestiae omnis rem debitis
+                  cupiditate quis, ipsam qui praesentium facere. Optio est
+                  quibusdam incidunt sit dolores quo velit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="./images/img/img-3.jpg" class="img-fluid" alt="" />
+                <div class="pt-3">
+                  <h4>Rainbow vegetable sandwich</h4>
+                  <p>Time:15 - 20 Minutes | service:1</p>
+                  <span>$10.50 <del>$11.70</del></span>
+                  <button class="main-btn mt-4">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="./images/img/img-4.jpg" class="img-fluid" alt="" />
+                <div class="pt-3">
+                  <h4>Vegeterian Burger</h4>
+                  <p>Time:30 - 40 Minutes | service:1</p>
+                  <span>$9.20 <del>$10.50</del></span>
+                  <button class="main-btn mt-4">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="./images/img/img-5.jpg" class="img-fluid" alt="" />
+                <div class="pt-3">
+                  <h4>Rasberry stuffed french toast</h4>
+                  <p>Time:10 - 15 Minutes | service:1</p>
+                  <span>$12.50 <del>$13.20</del></span>
+                  <button class="main-btn mt-4">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="review">
+      <div class="wrapper testimonial-section">
+        <div class="container text-center">
+          <div class="text-center pb-4">
+            <h2>Testimonials</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-10 offset-lg-1">
+              <div
+                id="carouselExampleDark"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <img src="./images/review/review-1.jpg" />
+                      <p>
+                        "Far Far away, behind the word mountains,far from the
+                        countries vokalia and consotania, there live the blind
+                        texts."
+                      </p>
+                      <h5>Johnthan Doe - UX designer</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="./images/review/review-2.jpg" />
+                      <p>
+                        "Far Far away, behind the word mountains,far from the
+                        countries vokalia and consotania, there live the blind
+                        texts."
+                      </p>
+                      <h5>Maccy Doe - FrontEnd Designer</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="./images/review/review-2.jpg" />
+                      <p>
+                        "Far Far away, behind the word mountains,far from the
+                        countries vokalia and consotania, there live the blind
+                        texts."
+                      </p>
+                      <h5>Maccy Doe - FrontEnd Designer</h5>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-center pb-4">
+                <h2>Frequently asked questions</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span>~</span>Is Foodies Bread really baked fresh each day?
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, vitae! Unde debitis soluta, temporibus animi libero
+                excepturi at atque nihil accusantium architecto laborum quis
+                ipsa, ab alias ex voluptatibus corporis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="book-food">
+      <div class="book-food">
+        <div class="container book-food-text">
+          <div class="row text-center">
+            <div class="col-lg-9 col-md-12">
+              <h2>Baked daily by bakers with Passion</h2>
+            </div>
+            <div class="col-lg-3 col-md-12 mt-4">
+              <button class="main-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsLetter">
+      <div class="newsLetter wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center pb-4">
+                <h2>Hurry Up! Subscribe our newsLetter and get 25% off</h2>
+                <p>
+                  Limited time offer for this month. No Credit card required.
+                </p>
+              </div>
+              <form action="" class="newsLetter">
+                <div class="row">
+                  <div class="col-sm-8 col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Email Address here"
+                      name="email"
+                      type="email"
+                    />
+                  </div>
+                  <div class="col-sm-4 col-12">
+                    <button class="main-btn">Subscribe</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <a href="#" class="footer-link">Register</a>
+              <a href="#" class="footer-link">Forum</a>
+              <a href="#" class="footer-link">Affiliate</a>
+              <a href="#" class="footer-link">FAQ</a>
+              <div class="footer-social pt-4 text-center">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="footer-copy">
+                <div class="copy-right text-center pt-5">
+                  <p class="text-light">
+                    &copy;2023. Foodies. All rights Reserved by Venky Kumar
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script Tag Added -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

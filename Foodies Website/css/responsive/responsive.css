@@ -1,0 +1,73 @@
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 991px) {
+  .text-content {
+    width: 100%;
+  }
+  .navigation-wrapper.navbar-brand img {
+    height: 3.812rem;
+  }
+  .navigation-wrapper {
+    text-align: center;
+    background-color: var(--white-color);
+  }
+
+  .navigation-wrapper .nav-link {
+    line-height: 1.875rem;
+  }
+  .top-banner {
+    padding: 9.375rem 0 9.375rem;
+  }
+  .testimonial-section .carousel-item .carousel-caption p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.0625rem;
+  }
+  .top-banner {
+    padding: 10.875rem 0 9.375rem;
+  }
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+  .testimonial-section .carousel-item {
+    padding: 11rem 3.125rem;
+  }
+  .newsLetter {
+    width: 75%;
+  }
+
+  .newsLetter .main-btn {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
+}
+
+/* @media (min-width: 576px) {
+  .col-sm-8 {
+    width: 90.666667%;
+  }
+  .col-sm-4 {
+    width: 91.33333333%;
+  }
+} */
+
+@media (max-width: 330px) {
+  .testimonial-section .carousel-item {
+    padding: 13rem 3.125rem;
+  }
+}
